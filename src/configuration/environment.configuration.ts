@@ -12,7 +12,7 @@ export class EnvironmentConfiguration {
    * @var string
    */
   public static readonly APP_LOCALE: string =
-    import.meta.env.VITE_LOCALE ?? "pt-BR";
+    import.meta.env.VITE_LOCALE ?? "en-US";
   public static readonly APP_FALLBACK_LOCALE: string =
-    import.meta.env.VITE_FALLBACK_LOCALE ?? "pt-BR";
+    import.meta.env.VITE_FALLBACK_LOCALE ?? "en-US";
 }

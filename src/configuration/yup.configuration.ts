@@ -3,17 +3,17 @@ import { translate } from "./i18n.configuration";
 
 YupSettings.setLocale({
   mixed: {
-    required: "WIP",
-    default: "WIP",
+    required: translate("common.cant_be_blank"),
+    default: translate("common.cant_be_blank"),
   },
   string: {
-    email: "WIP",
-    min: "WIP",
-    max: "WIP",
+    email: translate("common.cant_be_blank"),
+    min: translate("common.cant_be_blank"),
+    max: translate("common.cant_be_blank"),
   },
   number: {
-    min: "WIP",
-    max: "WIP",
+    min: translate("common.cant_be_blank"),
+    max: translate("common.cant_be_blank"),
   },
 });
 
