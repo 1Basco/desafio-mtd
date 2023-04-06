@@ -15,6 +15,9 @@ export default {
         "1/2": "50%",
         "1/3": "33% 100%",
       },
+      letterSpacing: {
+        "widest-2x": "0.25em",
+      },
     },
   },
   plugins: [],

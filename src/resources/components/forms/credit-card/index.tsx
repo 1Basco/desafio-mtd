@@ -13,13 +13,13 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
       <form autoComplete="off" onSubmit={props.handleSubmit}>
         <div className="mb-4">
           <label
-            className="block text-gray-700 font-medium uppercase mb-1 text-sm"
+            className="block text-gray-700 font-medium uppercase mb-1 text-xs tracking-widest"
             htmlFor="name"
           >
             {translate("heading.cardholder_name")}
           </label>
           <Field
-            className={` appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
+            className={` appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
             type="text"
             id="name"
             name="name"
@@ -39,7 +39,7 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
         <div className="flex">
           <div className="w-2/4 mr-2">
             <label
-              className="block text-gray-700 font-medium uppercase mb-1 text-sm"
+              className="block text-gray-700 font-medium uppercase mb-1 text-xs tracking-widest"
               htmlFor="expiration_month"
             >
               {translate("heading.expiration_date")}
@@ -47,7 +47,7 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
             <div className="flex justify-between">
               <div className="mr-1">
                 <Field
-                  className={` appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
+                  className={` appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
                   type="text"
                   id="expiration_month"
                   name="expiration_month"
@@ -60,7 +60,7 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
 
               <div className="ml-1">
                 <Field
-                  className={` appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
+                  className={` appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
                   type="text"
                   id="expiration_year"
                   name="expiration_year"
@@ -75,13 +75,13 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
 
           <div className="w-2/4 ml-2">
             <label
-              className="block text-gray-700 font-medium uppercase mb-1 text-sm"
+              className="block text-gray-700 font-medium uppercase mb-1 text-xs tracking-widest"
               htmlFor="verification_code"
             >
               {translate("heading.cvc")}
             </label>
             <Field
-              className={` appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
+              className={` appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-purple-950`}
               type="text"
               id="verification_code"
               name="verification_code"

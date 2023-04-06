@@ -1,3 +1,4 @@
+import { useState } from "react";
 import CreditCardView from "./resources/components/card-view";
 
 function App() {

@@ -38,7 +38,7 @@ const CreditCardNumberMaskedInput = ({
     <div className="mb-4">
       <label
         htmlFor={name}
-        className="block text-gray-700 text-sm font-medium mb-1 uppercase"
+        className="block text-gray-700 text-xs tracking-widest font-medium mb-1 uppercase"
       >
         {label || "WIP"}
       </label>
@@ -60,7 +60,7 @@ const CreditCardNumberMaskedInput = ({
       <ErrorMessage
         name={name}
         component="div"
-        className="text-red-500 italic mt-1 text-sm"
+        className="text-red-500 italic mt-1 text-xs"
       />
     </div>
   );

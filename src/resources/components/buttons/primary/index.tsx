@@ -18,7 +18,7 @@ const PrimaryButton = ({
   <div>
     <button
       type={type || ButtonTypeConstants.SUBMIT}
-      className={` group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm bg-purple-950 font-medium rounded-md text-white 
+      className={` group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm bg-purple-950 font-medium rounded-md text-white 
       focus:outline-none`}
       onClick={onClick}
     >

@@ -1,4 +1,3 @@
-import { isValidExpirationDate } from "../../../../app/helpers/date.helper";
 import { translate } from "../../../../configuration/i18n.configuration";
 import YupSettings from "../../../../configuration/yup.configuration";
 
