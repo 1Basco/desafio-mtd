@@ -27,5 +27,8 @@ export const CardYupFormSchema = YupSettings.object().shape({
     .required()
     .min(3)
     .max(255)
-    .matches(/^[a-zA-Z\s]+$/, translate("common.wrong_format_letters_only")),
+    .matches(
+      /^[a-zA-ZÀ-ÿ\s]+$/u,
+      translate("common.wrong_format_letters_only")
+    ),
 });
