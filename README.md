@@ -5,8 +5,9 @@
 - Took me 9 hours of work
 
 ### How to run:
+- Just go to the [Vercel Site](https://desafio-mtd.vercel.app/)
 
-- Clone the repository
+- Or clone the repository
 - Run:
 
 ```bash
