@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "red-error": "hsl(0, 100%, 66%)",
+      },
       fontFamily: {
         "space-grotesk": ["'Space Grotesk', sans-serif"],
       },

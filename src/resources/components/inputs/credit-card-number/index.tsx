@@ -45,10 +45,8 @@ const CreditCardNumberMaskedInput = ({
       <MaskedInput
         id={name}
         name={name}
-        className={`appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
-          props.errors.cardNumber || props.touched.cardNumber
-            ? "border-red-500"
-            : ""
+        className={`appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none hover:cursor-pointer focus:border-gradient-purple ${
+          props.errors[name] ? "border-red-error" : ""
         }`}
         mask={cardNumberMask}
         guide={false}
