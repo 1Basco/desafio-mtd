@@ -30,7 +30,7 @@ function CreditCardForm({ props }: CreditCardFormOptions): JSX.Element {
         <div className="flex">
           <div className="w-2/4 mr-2">
             <label
-              className="block text-gray-700 font-medium uppercase mb-1 text-xs tracking-widest"
+              className="block text-grayish-violet-900 font-medium uppercase mb-1 text-xs tracking-widest"
               htmlFor="expiration_month"
             >
               {translate("heading.expiration_date")}

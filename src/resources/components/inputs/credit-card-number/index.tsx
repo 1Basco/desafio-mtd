@@ -38,14 +38,14 @@ const CreditCardNumberMaskedInput = ({
     <div className="mb-4">
       <label
         htmlFor={name}
-        className="block text-gray-700 text-xs tracking-widest font-medium mb-1 uppercase"
+        className="block text-grayish-violet-900 first-line:text-xs tracking-widest font-medium mb-1 uppercase"
       >
         {label || "WIP"}
       </label>
       <MaskedInput
         id={name}
         name={name}
-        className={`appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none hover:cursor-pointer focus:border-gradient-purple ${
+        className={`appearance-none border rounded w-full py-2 px-3 border-grayish-violet-200 placeholder-grayish-violet-200 text-grayish-violet-900 leading-tight focus:outline-none hover:cursor-pointer focus:border-gradient-purple ${
           props.errors[name] ? "border-red-error" : ""
         }`}
         mask={cardNumberMask}
@@ -58,7 +58,7 @@ const CreditCardNumberMaskedInput = ({
       <ErrorMessage
         name={name}
         component="div"
-        className="text-red-500 italic mt-1 text-xs"
+        className="text-red-500 mt-1 text-xs"
       />
     </div>
   );

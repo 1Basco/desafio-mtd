@@ -18,7 +18,7 @@ function TextInput({
     <>
       {title && (
         <label
-          className="block text-gray-700 font-medium uppercase mb-1 text-xs tracking-widest"
+          className="block text-grayish-violet-900 font-medium uppercase mb-1 text-xs tracking-widest"
           htmlFor={inputName}
         >
           {title ?? "WIP"}
@@ -26,7 +26,7 @@ function TextInput({
       )}
 
       <Field
-        className={` appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none hover:cursor-pointer ${
+        className={` appearance-none border rounded-lg w-full py-2 px-3 border-grayish-violet-200 placeholder-grayish-violet-200 text-grayish-violet-900 leading-tight focus:outline-none hover:cursor-pointer ${
           props.errors[inputName] ? "border-red-error" : ""
         }`}
         type="text"
@@ -34,7 +34,7 @@ function TextInput({
         name={inputName}
         placeholder={placeholder}
       />
-      <div className="text-red-error text-xs mt-1 italic">
+      <div className="text-red-error text-xs mt-1">
         <ErrorMessage name={inputName} />
       </div>
     </>

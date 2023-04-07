@@ -5,6 +5,9 @@ export default {
     extend: {
       colors: {
         "red-error": "hsl(0, 100%, 66%)",
+        "grayish-violet-200": "hsl(270, 3%, 87%)",
+        "grayish-violet-500": "hsl(279, 6%, 55%)",
+        "grayish-violet-900": "hsl(278, 68%, 11%)",
       },
       fontFamily: {
         "space-grotesk": ["'Space Grotesk', sans-serif"],
