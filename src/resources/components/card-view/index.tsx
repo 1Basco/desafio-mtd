@@ -41,7 +41,7 @@ function CreditCardView(): JSX.Element {
             <div className="lg:mb-0 mt-4 mb-10">
               <CardDetails />
             </div>
-            <div className="lg:w-[28rem] lg:mr-32 lg:ml-40 p-5 w-full">
+            <div className="lg:w-2/5 lg:mr[5%] lg:ml-[15%] p-5 w-full lg:max-w-[50%] lg:mt-[5%]">
               {isSubmitted ? (
                 <>
                   <CreditCardThankYou handleReset={props.resetForm} />
