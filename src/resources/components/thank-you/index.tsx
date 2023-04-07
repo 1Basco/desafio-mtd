@@ -9,16 +9,16 @@ function CreditCardThankYou({
   handleReset,
 }: CreditCardThankYouOptions): JSX.Element {
   return (
-    <div className="text-center">
+    <div className="text-center w-full">
       <img
-        className="mx-auto mb-6"
+        className="mx-auto mb-5"
         src={iconComplete}
         alt="Icon with a white tick mark inside of a purple gradient circle"
       />
       <h1 className="uppercase text-2xl font-semibold my-6 tracking-widest">
         Thank you!
       </h1>
-      <p className="mb-12 mt-6">We've added your card details</p>
+      <p className="mb-12 mt-5">We've added your card details</p>
 
       <PrimaryButton title="Continue" onClick={handleReset} />
     </div>

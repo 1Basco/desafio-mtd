@@ -37,11 +37,11 @@ function CreditCardView(): JSX.Element {
         onReset={handleReset}
       >
         {(props: FormikProps<CreditCardFormValues>) => (
-          <div className="flex justify-around items-center h-screen 2xl:px-10 w-4/5 m-auto">
-            <div>
+          <div className="flex flex-col lg:flex-row lg:justify-around items-center h-screen lg:px-5 lg:w-4/5 m-auto">
+            <div className="lg:mb-0 mt-4 mb-10">
               <CardDetails />
             </div>
-            <div className="w-[28rem] ml-40  mr-20 p-5">
+            <div className="lg:w-[28rem] lg:mr-32 p-5 w-full">
               {isSubmitted ? (
                 <>
                   <CreditCardThankYou handleReset={props.resetForm} />
