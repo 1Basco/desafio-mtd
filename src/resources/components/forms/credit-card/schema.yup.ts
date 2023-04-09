@@ -21,7 +21,7 @@ export const CardYupFormSchema = YupSettings.object().shape({
     .min(3)
     .max(4)
     .required(translate("common.cant_be_blank"))
-    .matches(/^[0-9]{3,4}$/, translate("common.wrong_format_letters_only")),
+    .matches(/^[0-9]{3,4}$/, translate("common.wrong_format_number_only")),
 
   name: YupSettings.string()
     .required()
